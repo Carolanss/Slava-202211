@@ -36,6 +36,7 @@ $text = 'десять негритят пошли купаться в море';
 
 var_dump(true == '1'); echo '<br/>';
 var_dump(false === '0'); echo '<br/>';
+
 $str1 = 'the';
 $str2 = 'three';
 $str3 = 'name';
