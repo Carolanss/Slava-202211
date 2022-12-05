@@ -37,13 +37,13 @@ $text = 'десять негритят пошли купаться в море';
 var_dump(true == '1'); echo '<br/>';
 var_dump(false === '0'); echo '<br/>';
 
-$str1 = 'the';
+$str1 = 'три';
 $str2 = 'three';
-$str3 = 'name';
-if  (mb_strlen($str1  'UTF-8') <3) {
-    echo 'ya'; 
+
+if  (mb_strlen($str1) < mb_strlen($str2)) {
+    echo 'три короче three';
 }
-echo mb_strlen($str2);echo '<br/>'; 
+else echo 'три длинее three' ; echo '<br/>';
 
 $num1 = 125*3+7;
 $num2 = 227 +28*2;
